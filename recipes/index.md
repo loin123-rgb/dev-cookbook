@@ -25,3 +25,8 @@ permalink: /recipes/
 
 ### 排程與維運
 - [讓腳本每天自己跑(Windows)](ops/windows-scheduler/) — 工作排程器 + log + 失敗才通知
+
+### R 與統計品管
+- [X̄-R 管制圖:管制界限怎麼算](r/xbar-r-chart/) — 常數表、完整分組、單一計算來源
+- [Cp/Cpk 算錯的三種方式](r/cp-cpk/) — 組內 vs 整體 sigma、Ca 的基準、分組平均不能比規格
+- [多產線混批的抽驗命中機率](r/sampling-probability/) — 四批全過不代表沒問題

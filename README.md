@@ -31,6 +31,13 @@
 |:--|:--|
 | [讓腳本每天自己跑(Windows)](https://loin123-rgb.github.io/dev-cookbook/recipes/ops/windows-scheduler/) | [`examples/ops`](examples/ops) |
 
+### R 與統計品管
+| 食譜 | 程式碼 |
+|:--|:--|
+| [X̄-R 管制圖:管制界限怎麼算](https://loin123-rgb.github.io/dev-cookbook/recipes/r/xbar-r-chart/) | [`examples/r/spc`](examples/r/spc) |
+| [Cp/Cpk 算錯的三種方式](https://loin123-rgb.github.io/dev-cookbook/recipes/r/cp-cpk/) | [`examples/r/spc`](examples/r/spc) |
+| [多產線混批的抽驗命中機率](https://loin123-rgb.github.io/dev-cookbook/recipes/r/sampling-probability/) | [`examples/r/sampling-probability`](examples/r/sampling-probability) |
+
 ## 快速開始
 
 ```bash
@@ -44,7 +51,7 @@ python consolidate.py --src "D:\封存區" --out archive.parquet
 
 - 程式碼**可以直接跑**,不用先補三行才動得了。路徑一律走參數,不寫死。
 - 每篇最後都有「踩過的坑」,那才是這本食譜真正的價值。
-- Python 3.11+,Node 20+。
+- Python 3.11+,Node 20+,R 4.4+。
 
 ## 本機預覽網站
 

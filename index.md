@@ -24,6 +24,7 @@ nav_order: 1
 - 從電表/儀器用 Modbus 撈數值,還要處理 32-bit 浮點數的 word order
 - 檢驗結果要自動變成投影片交出去
 - 寫好的腳本要每天自己跑,而且出事要看得到 log
+- Cp 跟 Pp 差在哪、算錯會讓製程能力低估好幾倍
 
 ## 分類
 
@@ -33,6 +34,7 @@ nav_order: 1
 | [Modbus 與儀器](recipes/modbus/) | 暫存器讀取、資料型別解碼、長時間記錄 |
 | [報表產出](recipes/report/) | 用程式產生 PowerPoint 報告 |
 | [排程與維運](recipes/ops/) | Windows 工作排程器、log、失敗通知 |
+| [R 與統計品管](recipes/r/) | 管制圖、製程能力、抽驗機率 |
 
 ## 怎麼用
 
