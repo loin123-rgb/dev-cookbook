@@ -40,3 +40,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  # examples/ 底下的 README.md 會被當成頁面收進左側導覽,整個排除掉。
+  # 食譜連到 examples 走的是 GitHub blob 網址,不需要 Jekyll 複製這些檔案。
+  - examples/
