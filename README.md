@@ -31,11 +31,6 @@
 |:--|:--|
 | [讓腳本每天自己跑(Windows)](https://loin123-rgb.github.io/dev-cookbook/recipes/ops/windows-scheduler/) | [`examples/ops`](examples/ops) |
 
-### 廚房
-| 食譜 | |
-|:--|:--|
-| [茶葉蛋](https://loin123-rgb.github.io/dev-cookbook/recipes/kitchen/tea-eggs/) | 字面意義上的食譜 |
-
 ## 快速開始
 
 ```bash

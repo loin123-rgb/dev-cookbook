@@ -25,6 +25,3 @@ permalink: /recipes/
 
 ### 排程與維運
 - [讓腳本每天自己跑(Windows)](ops/windows-scheduler/) — 工作排程器 + log + 失敗才通知
-
-### 廚房
-- [茶葉蛋](kitchen/tea-eggs/) — 五樣材料,難的只有火候與紅茶包的時機
