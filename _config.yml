@@ -20,9 +20,15 @@ callouts:
   warning:
     title: 注意
     color: red
+  important:
+    title: 重點
+    color: yellow
   note:
     title: 補充
     color: blue
+  example:
+    title: 範例
+    color: green
 
 aux_links:
   "在 GitHub 上檢視":
