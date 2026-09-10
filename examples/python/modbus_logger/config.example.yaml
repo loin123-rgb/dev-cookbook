@@ -1,0 +1,20 @@
+device:
+  host: 192.168.1.50
+  port: 502
+  slave: 1          # 單元識別碼,手冊上可能叫 unit id / station
+  timeout: 3
+
+poll:
+  interval_sec: 1.0
+  registers:
+    # address 是 0-based。手冊寫 40001 通常對應 address: 0;
+    # 讀到明顯不合理的值時,先試 ±1。
+    - {name: 電流_L1, address: 0,  type: float32, word_order: big}
+    - {name: 電流_L2, address: 2,  type: float32, word_order: big}
+    - {name: 電流_L3, address: 4,  type: float32, word_order: big}
+    - {name: 電壓_L1, address: 8,  type: int16,   scale: 0.1}
+    - {name: 累積電能, address: 20, type: uint32,  word_order: big, scale: 0.01}
+
+output:
+  dir: ./out
+  rotate: daily     # daily | hourly | none

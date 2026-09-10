@@ -1,0 +1,42 @@
+title: Dev Cookbook
+description: 自動化與資料處理的可執行食譜 — 每篇都是一個能跑起來的完整範例
+url: "https://loin123-rgb.github.io"
+baseurl: "/dev-cookbook"
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+
+heading_anchors: true
+
+# {: .warning } 之類的標註方塊必須在這裡登記,否則只會變成普通段落
+callouts:
+  warning:
+    title: 注意
+    color: red
+  note:
+    title: 補充
+    color: blue
+
+aux_links:
+  "在 GitHub 上檢視":
+    - "https://github.com/loin123-rgb/dev-cookbook"
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "回到頂端"
+
+footer_content: 'MIT License — 範例程式可自由取用。'
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

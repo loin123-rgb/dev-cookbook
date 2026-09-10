@@ -1,0 +1,25 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# 範例產出
+out/
+output/
+*.parquet
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

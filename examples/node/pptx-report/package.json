@@ -1,0 +1,16 @@
+{
+  "name": "pptx-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "從 CSV 產生 PowerPoint 檢驗月報",
+  "scripts": {
+    "build": "node build-report.mjs --data sample-data.csv --out out/月報.pptx"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
